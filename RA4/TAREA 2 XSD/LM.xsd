@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="modulo">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="unidades" type="Tunidades"/>
+            <xs:element name="prueba" type="Tprueba" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="titulo" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:key name="pk_unidad">
+        <xs:selector xpath="modulo/unidades/unidad"/>
+        <xs:field xpath="@id"/>
+    </xs:key>
+    <xs:keyref name="fk_ejercicio_unidad" refer="pk_unidad">
+        <xs:selector xpath="prueba/unidad/ejercicio"/>
+        <xs:field xpath="@unidad"/>
+    </xs:keyref>    
+    </xs:element>
+    <!-- ComplexType -->
+
+    <xs:complexType name="Tunidades">
+        <xs:sequence>
+            <xs:element name="unidad" type="Tunidad" maxOccurs="unbounded"/>
+            
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tprueba">
+        <xs:sequence>
+            <xs:element name="parte" type="Tparte" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="titulo" type="xs:string" use="required"/>
+        <xs:attribute name="fecha" type="xs:date" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tunidad">
+        <xs:sequence>
+            <xs:element name="test" type="Ttest" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="nombre" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Ttest" mixed="true">
+        <xs:sequence>
+            <xs:element name="opciones" type="Topciones"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="orden" type="Torden" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Topciones">
+        <xs:sequence>
+            <xs:element name="opcion" type="Topcion" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Topcion">
+        <xs:attribute name="rotulo" type="Trotulo" use="required"/>
+        <xs:attribute name="descripcion" type="TdescripcionCorta" use="required"/>
+        <xs:attribute name="correcta" type="TboolTrue" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tparte">
+        <xs:sequence>
+            <xs:element name="ejercicio" type="Tejercicio" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="titulo" type="xs:string" use="required"/>
+        <xs:attribute name="tarea" type="xs:string" use="optional"/>
+        <xs:attribute name="puntos_totales" type="Tpuntos" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tejercicio">
+        <xs:sequence>
+            <xs:element name="enunciado" type="xs:string"/>
+            <xs:element name="items" type="Titems" minOccurs="0"/>
+            <xs:element name="anexos" type="Tanexos" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="TidEjercicio" use="required"/>
+        <xs:attribute name="puntos" type="Tpuntos" use="required"/>
+        <xs:attribute name="unidad" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Titems">
+        <xs:sequence>
+            <xs:element name="item" type="Titem" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Titem">
+        <xs:attribute name="descripcion" type="xs:string" use="required"/>
+        <xs:attribute name="peso" type="xs:integer" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tanexos">
+        <xs:sequence>
+            <xs:element name="anexo" type="Tanexo" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tanexo">
+        <xs:attribute name="src" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- SimpleType -->
+
+    <xs:simpleType name="Torden">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"/>
+            <xs:maxInclusive value="999"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Trotulo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="a"/>
+            <xs:enumeration value="b"/>
+            <xs:enumeration value="c"/>
+            <xs:enumeration value="d"/>
+            <xs:enumeration value="e"/>
+            <xs:enumeration value="f"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TdescripcionCorta">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="200"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TboolTrue">
+        <xs:restriction base="xs:boolean">
+            <xs:pattern value="true|1"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tpuntos">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="5"/>
+            <xs:fractionDigits value="3"/>
+            <xs:minInclusive value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TidEjercicio">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="P[1-9]E[0-9]{1,2}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

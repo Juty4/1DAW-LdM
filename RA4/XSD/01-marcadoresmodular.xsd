@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="marcadores">
+	  <xs:complexType>
+	     <xs:sequence   maxOccurs="unbounded">
+		 	<xs:element name="pagina" type="tpagina"/>
+		 </xs:sequence>
+	  </xs:complexType>	
+	</xs:element>
+<!-- Tipos compuestos -->
+<xs:complexType name="tpagina">
+	<xs:all>
+	  <xs:element ref="nombre" />
+	  <xs:element name="descripcion" type="xs:string"/>
+	  <xs:element name="url" type="xs:string"/>
+	</xs:all>
+</xs:complexType>
+<xs:element name="nombre">
+<xs:complexType mixed="true"> 
+  <xs:attribute name="edad" type="xs:positiveInteger"/>
+</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

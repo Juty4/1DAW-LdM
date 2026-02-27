@@ -1,0 +1,32 @@
+
+/* menú de navegación */
+
+
+/* header */
+.header{
+    background: url('../img/image1.jpg'), rgba(0,0,0,.3);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    background-blend-mode: overlay; 
+
+    
+
+}
+
+
+/* nosotros */
+
+
+/* oferta*/
+.oferta{
+    height: 100vh;
+    background: url('../img/image3.jpg'), rgba(0, 0, 0, 0.3);
+}
+
+
+/*menu galeria*/
+
+
+/*  Footer  */
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- Definición de tipos simples -->
+    <xs:simpleType name="tipo-modelo">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-puertas">
+        <xs:restriction base="xs:short"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-velocidad">
+        <xs:restriction base="xs:integer"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-consumo">
+        <xs:restriction base="xs:float"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-fecha-fabricacion">
+        <xs:restriction base="xs:date"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-ultima-revision">
+        <xs:restriction base="xs:dateTime"/>
+    </xs:simpleType>
+
+    <!-- defino estructura de mi XML -->
+    <xs:element name="coche">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modelo" type="tipo-modelo"/>
+                <xs:element name="puertas" type="tipo-puertas"/>
+                <xs:element name="velocidad" type="tipo-velocidad"/>
+                <xs:element name="consumo" type="tipo-consumo"/>   
+                <xs:element name="fecha_fabricacion" type="tipo-fecha-fabricacion"/>               
+                <xs:element name="ultima_revision" type="tipo-ultima-revision"/>               
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

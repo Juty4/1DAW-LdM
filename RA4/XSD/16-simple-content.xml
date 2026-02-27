@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="16-simple-content.xsd">
+    <libro id="l1">
+        El problema de los 3 cuerpos
+    </libro>
+</libros>

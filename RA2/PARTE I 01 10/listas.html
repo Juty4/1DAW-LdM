@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas ordenadas y no ordenadas</title>
+    <style>
+        ul{
+            list-style-type: none;
+            padding-left: 10px;
+            margin: 10px 0;
+
+            li{
+                margin-bottom:5px;
+                &::before{
+                    content: "✓";
+                    color:blue;    
+                }
+                
+                &::after{
+                    content: "-completo";
+                    color: gray;
+                    font-style:italic;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Enero</li>
+        <li>Febrero</li>
+        <li>Marzo</li>
+    </ol>
+    
+</body>
+</html>

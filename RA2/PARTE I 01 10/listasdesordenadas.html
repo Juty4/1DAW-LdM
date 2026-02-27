@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas desordenadas con Pseudo-elementos y Pseudo-clases</title>
+    <style>
+        ul{
+            list-style-type: none;
+            padding-left: 30px;
+            counter-reset:cuenta;
+            li{
+                margin-bottom: 8px;
+                &::before{
+                    counter-increment: cuenta;
+                    content: counter(cuenta)". ";
+                    color:navy;
+                }
+
+                /*afecta a las filas impares*/
+                &:nth-child(odd){
+                    background-color: rgb(166, 166, 166);
+                    &::before{
+                        content: "☔" counter(cuenta) ". ";
+                    }
+                }
+
+                /*afecta a las filas pares*/
+                &:nth-child(even){
+                    background-color: rgb(116, 116, 248);
+                    color:white;
+                    &::after{
+                        content: " (par)";
+                        color:brown;
+                        font-style:italic;
+                    }
+                }
+
+                /*afecta a la primera fila*/
+                &:first-child{
+                    font-weight: bold;
+                    &::before{
+                        content: "♥"
+                    }
+                }
+
+                /*afecta a la última fila*/
+                &:last-child{
+                    border-bottom: 2px solid black;
+                    &::after{
+                        content: " (último de la fila)";
+                        color:purple;
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ul>
+</body>
+</html>

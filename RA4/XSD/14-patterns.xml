@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patrones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="14-patterns.xsd">
+    <!-- de 5 a 8 números -->
+    <patronA>12345678</patronA>
+    <patronA>99999999</patronA>
+    <!-- 5 letras mayúsculas -->
+    <patronB>LMSGI</patronB>
+    <!-- 3 letras mayúsculas seguido de 3 minúsculas -->
+    <patronC>ABCdef</patronC>
+    <!-- que tenga 3 letras mayúsculas o minúsculas de la a a la d, seguido de 2 números -->
+    <patronD>AdC99</patronD>
+    <patronD>bBb11</patronD>
+    <!-- que tenga 3 números de 0 a 5 seguido de una letra minúscula desde a - d -->
+    <patronE>123a</patronE>
+    <!-- tenga 3 bloque de 3 números separados por - -->
+    <patronF>123-456-789</patronF>
+    <!-- empiece por una letra y tenga 2 números -->
+    <patronG>c18</patronG>
+    <!-- Quiero la palabra LGA, seguido de un guión, seguido de 4 dígitos  -->
+    <patronH>LGA-1115</patronH>
+    <!-- Quiero 1 número - cualquier caracter - 1 letra mayúscula  -->
+    <patronI>3#P</patronI>
+    <patronI>9$Q</patronI>
+    <!-- Quiero la palabra LGA, seguido de un guión, seguido de 4 dígitos .V y número  -->
+    <patronJ>LGA-1115.V3</patronJ>
+    <!-- a o b, 1 ó 2, un guión, de 3 a 5 letras -->
+    <patronK>a2-aaa</patronK>
+    <patronK>b1-ababa</patronK>
+    <!-- al menos una a, al menos una b, 0 o muchas c -->
+    <patronL>aaabbbbb</patronL>
+    <patronL>abcccccc</patronL>
+</patrones>

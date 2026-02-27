@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- Definición de tipos simples -->
+    <xs:simpleType name="tipo-login">
+        <xs:restriction base="xs:string">
+            <xs:length value="6"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-nombre">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-edad-laboral">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="16"/>
+            <xs:maxExclusive value="70"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-fnac">
+        <xs:restriction base="xs:date">
+            <xs:maxExclusive value="2001-01-01"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-grupo-sanguineo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="A"/>
+            <xs:enumeration value="B"/>
+            <xs:enumeration value="AB"/>
+            <xs:enumeration value="0"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipo-dni">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{8}[A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    
+
+
+    <xs:element name="usuarios">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usuario">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="login" type="tipo-login"/>
+                            <xs:element name="nombre" type="tipo-nombre"/>
+                            <xs:element name="edad" type="tipo-edad-laboral"/>
+                            <xs:element name="fecha-nacimiento" type="tipo-fnac"/>
+                            <xs:element name="grupo-s" type="tipo-grupo-sanguineo"/>
+                            <xs:element name="dni" type="tipo-dni"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

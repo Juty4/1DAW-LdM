@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Podemos tener de 0 a infinitos tip -->
+<recomendaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="05-esquema.xsd">
+    <tip>Mantenga actualizado su ordenador</tip>
+    <tip>Realice copias de seguridad</tip>
+    <tip>Instale un antivirus</tip>
+    <tip>Utilice software legal</tip>
+</recomendaciones>

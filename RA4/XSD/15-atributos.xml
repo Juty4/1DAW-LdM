@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puntos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="15-atributos.xsd">
+    <punto id="p1" fecha="2020-04-22"/>
+    <punto id="p2" fecha="2020-04-23"/>
+    <punto id="p3" fecha="2020-04-24"/>
+</puntos>

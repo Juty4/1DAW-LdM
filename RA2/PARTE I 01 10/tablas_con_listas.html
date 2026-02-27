@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas con listas y Pseudo-elemento</title>
+    <style>
+        table{
+            border-spacing: 15px;
+            border: 2px solid black;
+            width: 100%;
+
+            ol{
+                list-style-type: upper-alpha;
+                /*declaramos la variable cuenta inicializada a 0 */
+                counter-reset: cuenta;
+
+                li{
+                    /*incrementa por cada elemento de la lista*/
+                    counter-increment: cuenta;
+                    /*se coloca dentro del contenido de la lista*/
+                    list-style-position: inside;
+                    padding: 10px;
+
+                    &::before{
+                        content: counter(cuenta) ". ";
+                        color: red;
+                    }
+
+                    &::after{
+                        content: "(fin del ejercicio)";
+                        color:green;
+                        font-size: small;
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Pasos</th>
+        </tr>
+        <tr>
+            <td>
+                <ol type="A" start="3">
+                    <li>Paso C</li>
+                    <li>Paso D</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!ELEMENT modulo (unidades, prueba*)>
+<!ELEMENT unidades (unidad+)>
+<!ELEMENT unidad (test*)>
+<!ELEMENT test (#PCDATA | opciones)*>
+<!ELEMENT opcion EMPTY>
+
+<!ELEMENT prueba (parte+)>
+<!ELEMENT parte (ejercicio+)>
+<!ELEMENT ejercicio (enunciado, items?, anexos*)>
+<!ELEMENT enunciado (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item EMPTY>
+<!ELEMENT anexos (anexo?)>
+<!ELEMENT anexo EMPTY>
+
+<!ATTLIST modulo id ID #REQUIRED
+titulo CDATA #REQUIRED>
+<!ATTLIST unidad id ID #REQUIRED
+nombre CDATA #REQUIRED>
+<!ATTLIST test id ID #REQUIRED
+orden CDATA #REQUIRED>
+<!ATTLIST opcion rotulo (a | b | c | d | e | f) #REQUIRED
+descripcion CDATA #REQUIRED
+correcta (true) #IMPLIED>
+<!ATTLIST prueba id ID #REQUIRED
+titulo CDATA #REQUIRED
+fecha CDATA #REQUIRED>
+<!ATTLIST parte id ID #REQUIRED
+titulo CDATA #REQUIRED
+tarea CDATA #IMPLIED
+puntos_totales CDATA #REQUIRED>
+<!ATTLIST ejercicio id ID #REQUIRED
+puntos CDATA #REQUIRED
+unidad IDREF #REQUIRED>
+<!ATTLIST item descripcion CDATA #REQUIRED
+peso CDATA #IMPLIED>
+<!ATTLIST anexo src CDATA #REQUIRED>

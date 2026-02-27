@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="11-tipos-predefinidos-1.xsd">
+    <modelo>Seat León</modelo>
+    <!-- natural pequeño -->
+    <puertas>5</puertas>
+    <!-- entero -->
+    <velocidad>200</velocidad>
+    <!-- número con decimales -->
+    <consumo>4.5</consumo>
+    <!-- fecha -->
+    <fecha_fabricacion>2015-04-01</fecha_fabricacion>
+    <!-- fecha y hora -->
+    <ultima_revision>2018-07-01T09:00:00</ultima_revision>
+</coche>

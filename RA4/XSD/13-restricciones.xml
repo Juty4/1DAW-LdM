@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="13-restricciones.xsd">
+    <usuario>
+        <!--cadena. 6 caracteres-->
+        <login>pes130</login>
+        <!-- máximo 50 caracteres -->
+        <nombre>Felipe Juan</nombre>
+        <!-- edad laboral: >= 16 y < 70 -->
+        <edad>40</edad>
+        <!--valor NO mayor al 1 de enero de 2000 -->
+        <fecha-nacimiento>1900-01-01</fecha-nacimiento>
+        <!--Grupo sanguíneo, que puede valer solo A, B, AB o 0 -->
+        <grupo-s>AB</grupo-s>
+        <!-- tiene 9 caracteres numéricos, y el último es una letra. -->
+        <dni>67391826F</dni>
+    </usuario>
+</usuarios>

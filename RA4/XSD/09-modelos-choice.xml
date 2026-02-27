@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<novela xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="09-modelos-choice.xsd">
+	<prefacio>Éste es el prefacio</prefacio>
+	<cuerpo>Esto es el resto de la novela</cuerpo>
+</novela>

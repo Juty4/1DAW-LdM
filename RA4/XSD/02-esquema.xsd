@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="persona">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="nombre"/>
+                <xs:element name="apellidos"/>
+                <xs:element name="f_nac">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia"/>
+                            <xs:element name="mes"/>
+                            <xs:element name="anyo"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

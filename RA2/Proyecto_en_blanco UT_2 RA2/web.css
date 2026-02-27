@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* --- NAVEGACIÓN --- */
+.menu {
+    display: flex;
+    justify-content: space-between; /* Alinea logo/botón a un lado y links al otro */
+    align-items: center;
+    background-color: rgb(67, 127, 67);
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+/* Ocultar el checkbox siempre */
+#m {
+    display: none;
+}
+
+/* Icono de hamburguesa (Label) */
+.menu label {
+    display: none; /* Se oculta en PC */
+    cursor: pointer;
+}
+
+.menu label img {
+    width: 30px; /* Ajusta el tamaño de tu imagen menu.png */
+    filter: invert(1); /* Si tu icono es negro, esto lo hace blanco */
+}
+
+/* Contenedor de los enlaces */
+.menu div {
+    display: flex;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- RESPONSIVE (Móviles) --- */
+@media (max-width: 700px) {
+    .menu label {
+        display: block; /* Aparece el icono en móviles */
+    }
+
+    .menu div {
+        /* Convertimos el menú en una columna vertical oculta */
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Altura del nav */
+        left: 0;
+        width: 100%;
+        background-color: rgb(67, 127, 67);
+    }
+
+    .menu a {
+        width: 100%;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* EL TRUCO: Si el checkbox está marcado, muestra el div */
+    #m:checked ~ div {
+        display: flex;
+    }
+}
+
+/* --- RESTO DE TU DISEÑO --- */
+.cabecera img {
+    width: 100%;
+    display: block;
+    padding-top: 60px; /* Para que la imagen no quede debajo del menú fixed */
+}
+
+.contenedor {
+    background-color: rgb(56, 118, 73);
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.elementos {
+    position: relative;
+    overflow: hidden;
+}
+
+.elementos .img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.elementos .texto {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transform: translateY(100%); /* Empieza abajo oculto */
+    transition: 0.5s;
+}
+
+.elementos:hover .texto {
+    opacity: 1;
+    transform: translateY(0); /* Sube al hacer hover */
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #333;
+    color: white;
+}

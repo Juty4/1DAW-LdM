@@ -1,0 +1,110 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="almacen">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="productos" type="Tproductos"/>
+                <xs:element name="ubicaciones" type="Tubicaciones"/>
+                <xs:element name="palets" type="Tpalets" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+<!--Voy a empezar a definir los productos,
+Tubicaciones y los Tpalets (complejos)-->
+    <xs:complexType name="Tproductos">
+        <xs:sequence minOccurs="1" maxOccurs="unbounded">
+            <xs:element name="producto" type="Tproducto"/>
+        </xs:sequence>
+        
+    </xs:complexType>
+    <xs:complexType name="Tubicaciones">
+        <xs:sequence maxOccurs="unbounded">
+            <xs:element name="nave" type="Tnave"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tpalets">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="palet" type="Tpalet">
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tpalet">
+        <xs:sequence>
+            <xs:element name="contenido" type ="Tcontenido" maxOccurs="unbounded"/>
+            <xs:element name="observaciones" type ="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name= "id" type="Tid" use="required"/>
+        <xs:attribute name= "ubicacion" type="xs:IDREF" use="optional"/>
+        <xs:attribute name= "verificado" type="xs:dateTime" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tproducto">
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="descripcion" type="xs:string" use="required"/>
+        <xs:attribute name="valor_ud" type="xs:decimal" use="optional"/>
+        <xs:attribute name="unidades" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tnave">
+        <xs:sequence minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="sector" type="Tsector"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="Tsector">
+        <xs:sequence>
+            <xs:element name="contenido"
+            maxOccurs="unbounded" type="Tcontenido"/>
+            <xs:element neme="observaciones" minOccurs="0" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+        <xs:attribute name="ubicacion" type="xs:IDREF" use="optional"/>
+        <xs:attribute name="verificado" type="xs:dateTime" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tsector">
+        <xs:simpleContent>
+            <xs:extension base="string">
+                <xs:attribute name="id" type="xs:ID" use="required"/>
+                <xs:attribute name="estado" tupe="Testado" use="required"/>
+                <xs:attribute name="capacidad" type="Tcapacidad" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="Tcontenido">
+        <xs:attribute name="producto" type="xs:IDREF" use="required"/>
+        <xs:attribute name="cantidad" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:simpleType name="Testado">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="D"></xs:enumeration>
+            <xs:enumeration value="N"></xs:enumeration>
+            <xs:enumeration value="C"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="Tcapacidad">
+        <xs:restriction base="xs:int">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="100000"/>
+    </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tid">
+        <xs:restriction base="xs:ID">
+            <xs:pattern value="PL[0-9]{6}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="Tvalor">
+        <xs:restriction base="xs:decimal">
+            <xs:totalDigits value="10"/>
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

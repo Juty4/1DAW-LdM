@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Quiero un número indeterminado de discos y de libros -->
+<coleccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="08-ejercicio-all.xsd">
+    <disco>Pearl Jam: Vitalogy</disco>
+    <libro>El problema de los 3 cuerpos</libro>
+    <libro>Historia de 2 ciudades</libro>
+    <disco>Radiohead: Ok Computer</disco>
+</coleccion>

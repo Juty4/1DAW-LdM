@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="02-esquema.xsd">    
+    <nombre>Fermín</nombre>
+    <apellidos>Romero de Torres</apellidos>
+    <f_nac>
+        <dia>24</dia>
+        <mes>Marzo</mes>
+        <anyo>1898</anyo>
+    </f_nac>
+</persona>

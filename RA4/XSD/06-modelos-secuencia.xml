@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="06-modelos-secuencia.xsd">
+	<from>pablo.profe.tic@gmail</from>
+	<to>info@iescelia.org</to>
+	<body>Mensaje urgente</body>
+</mensaje>

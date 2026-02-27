@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="coche">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="modelo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string"/>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="puertas">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:short"/>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="velocidad">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:integer"/>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="consumo">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:float"/>
+                    </xs:simpleType>
+                </xs:element>   
+                <xs:element name="fecha_fabricacion">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:date"/>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="ultima_revision">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:dateTime"/>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

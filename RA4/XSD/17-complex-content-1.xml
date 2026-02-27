@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="17-complex-content-1.xsd">
+    <!-- Sin atributos y con subelementos -->
+    <libro>
+        <titulo>El problema de los 3 cuerpos</titulo>
+        <autor>Cixin Liu</autor>
+    </libro>
+</libros>
