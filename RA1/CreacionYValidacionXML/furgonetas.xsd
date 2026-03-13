@@ -1,0 +1,122 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Empresas_alquiler_furgonetas">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="clientes" type="Tclientes" />
+                <xs:element name="furgonetas_disponibles" type="Tfurgonetas_disponibles"/>
+                <xs:element name="registro_solicitudes" type="Tregistro_solicitudes"/>
+                <xs:element name="servicios_especiales" type="Tservicios_especiales"/>
+            </xs:sequence>
+        </xs:complexType>
+    <!-- Keys -->
+
+        <xs:key name="pk_cliente">
+            <xs:selector xpath=".//cliente"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <xs:key name="pk_vehiculo">
+            <xs:selector xpath=".//vehiculo"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+        <xs:key name="pk_servicio">
+            <xs:selector xpath=".//servicio"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+
+
+        <xs:keyref name="fk_cliente" refer="pk_cliente">
+            <xs:selector xpath=".//solicitud"/>
+            <xs:field xpath="@cliente"/>
+        </xs:keyref>
+
+        <xs:keyref name="fk_vehiculo" refer="pk_vehiculo">
+            <xs:selector xpath=".//solicitud"/>
+            <xs:field xpath="@vehiculo"/>
+        </xs:keyref>
+
+        <xs:keyref name="fk_servicio" refer="pk_servicio">
+            <xs:selector xpath=".//solicitud"/>
+            <xs:field xpath="@servicio_especial"/>
+        </xs:keyref>
+
+    </xs:element>
+
+    <!-- ComplexType primera parte-->
+<xs:complexType name="Tclientes">
+    <xs:sequence>
+        <xs:element name="cliente" type="Tcliente" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tfurgonetas_disponibles">
+    <xs:sequence>
+        <xs:element name="furgoneta_categorias" type="Tfurgoneta_categorias"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tregistro_solicitudes">
+    <xs:sequence>
+        <xs:element name="solicitud" type="Tsolicitud" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tservicios_especiales">
+    <xs:sequence>
+        <xs:element name="servicio" type="Tservicio" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+    <!-- ComplexType segunda parte-->
+        
+<xs:complexType name="Tcliente">
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="nombre" type="xs:string"/>
+    <xs:attribute name="apellidos" type="xs:string"/>
+    <xs:attribute name="direccion" type="xs:string"/>
+    <xs:attribute name="telefono" type="xs:string"/>
+    <xs:attribute name="dni" type="xs:string" use="optional"/>
+</xs:complexType>
+
+<xs:complexType name="Tfurgoneta_categorias">
+    <xs:sequence>
+        <xs:element name="categoria" type="Tcategoria" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Tcategoria">
+    <xs:sequence>
+        <xs:element name="vehiculo" type="Tvehiculo" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="tipo" type="xs:string"/>
+</xs:complexType>
+
+<xs:complexType name="Tsolicitud" mixed="true">
+    <xs:attribute name="cliente" type="xs:IDREF"/>
+    <xs:attribute name="vehiculo" type="xs:IDREF"/>
+    <xs:attribute name="fecha_recogida" type="xs:date"/>
+    <xs:attribute name="hora_recogida" type="xs:string"/>
+    <xs:attribute name="fecha_devolucion" type="xs:date"/>
+    <xs:attribute name="hora_devolucion" type="xs:string"/>
+    <xs:attribute name="servicio_especial" type="xs:IDREF" use="optional"/>
+</xs:complexType>
+
+<xs:complexType name="Tservicio">
+    <xs:attribute name="id" type="xs:ID"></xs:attribute>
+    <xs:attribute name="nombre_servicio" type="xs:string"></xs:attribute>
+    <xs:attribute name="precio_servicio" type="xs:string"></xs:attribute>
+</xs:complexType>
+
+<xs:complexType name="Tvehiculo">
+    <xs:attribute name="id" type="xs:ID"/>
+    <xs:attribute name="plazas" type="xs:string"/>
+    <xs:attribute name="marca" type="xs:string"/>
+    <xs:attribute name="modelo" type="xs:string"/>
+</xs:complexType>
+
+    <!-- SimpleType -->
+
+
+</xs:schema>

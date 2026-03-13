@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SECCIÓN CLIENTES-->
+<Empresas_alquiler_furgonetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="furgonetas.xsd">
+    
+<clientes>
+    <cliente id="CL001" nombre="carmen" apellidos="" direccion="" telefono="" dni=""></cliente>
+    <cliente id="CL002" nombre="carlos" apellidos="" direccion="" telefono="" dni=""></cliente>
+    <cliente id="CL003" nombre="ana" apellidos="" direccion="" telefono="" dni=""></cliente>
+    <cliente id="CL004" nombre="lucia" apellidos="" direccion="" telefono="" dni=""></cliente>
+    
+</clientes>
+<!-- SECCIÓN FURGONETAS DISPONIBLES-->
+ <furgonetas_disponibles>
+    <furgoneta_categorias>
+        <categoria tipo="mini">
+            <vehiculo id="M001" plazas="" marca="" modelo="" ></vehiculo>
+            <vehiculo id="M002" plazas="" marca="" modelo="" ></vehiculo>
+
+        </categoria>
+        <categoria tipo="compact">
+            <vehiculo id="C001" plazas="" marca="" modelo="" ></vehiculo>
+            <vehiculo id="C002" plazas="" marca="" modelo="" ></vehiculo>
+
+        </categoria>
+        <categoria tipo="grand">
+            <vehiculo id="G001" plazas="" marca="" modelo="" ></vehiculo>
+            <vehiculo id="G002" plazas="" marca="" modelo="" ></vehiculo>
+
+        </categoria>
+        <categoria tipo="xlarge">
+            <vehiculo id="XL001" plazas="" marca="" modelo="" ></vehiculo>
+            <vehiculo id="XL002" plazas="" marca="" modelo="" ></vehiculo>
+
+        </categoria>
+    </furgoneta_categorias>
+ </furgonetas_disponibles>
+<!-- SECCIÓN REGISTRO DE SOLICITUDES-->
+ <registro_solicitudes>
+    <solicitud cliente="CL002" vehiculo="XL002" fecha_recogida="2026-03-15" hora_recogida="09:00" fecha_devolucion="2026-03-18" hora_devolucion="18:00" servicio_especial="SE001">La furgoneta tuvo una avería y ha sido recientemente reparada</solicitud>
+    <solicitud cliente="CL004" vehiculo="G002" fecha_recogida="2026-03-20" hora_recogida="10:30" fecha_devolucion="2026-03-22" hora_devolucion="17:00" servicio_especial="SE002"></solicitud>
+    <solicitud cliente="CL001" vehiculo="M001" fecha_recogida="2026-04-01" hora_recogida="08:00" fecha_devolucion="2026-04-03" hora_devolucion="20:00" servicio_especial="SE003"></solicitud>
+</registro_solicitudes>
+<!-- SECCIÓN SERVICIOS ESPECIALES QUE PUEDEN SER 0, 1 O MÁS-->
+<servicios_especiales>
+    <servicio id="SE001" nombre_servicio="sillita bebe" precio_servicio="75€"/>
+    <servicio id="SE002" nombre_servicio="Depósito lleno en origen" precio_servicio="150€"/>
+    <servicio id="SE003" nombre_servicio="portabicicletas exterior" precio_servicio="50€"/>
+</servicios_especiales>
+
+</Empresas_alquiler_furgonetas>
