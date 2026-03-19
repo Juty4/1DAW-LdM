@@ -1,0 +1,112 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="clinicas.xml">
+
+    <!-- primer complextype-->
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="clinicas_colaboradoras" type="Tclinicas_colaboradoras"/>
+                <xs:element name="propietarios" type="Tpropietarios"/>
+                <xs:element name="pacientes" type="Tpacientes"/>
+                <xs:element name="productos" type="Tproductos"/>
+                <xs:element name="tratamientos" type="Ttratamientos"/>
+                <xs:element name="packs_productos" type="Tpack_productos"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- segundos complextype-->
+    <xs:complexType name="Tclinicas_colaboradoras">
+        <xs:sequence>
+            <xs:element name="clinica_colaboradora" type="Tclinica_colaboradora"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tpropietarios">
+        <xs:sequence>
+            <xs:element name="propietario" type="Tpropietario"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tpacientes">
+        <xs:sequence>
+            <xs:element name="paciente" type="Tpaciente"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tproductos">
+        <xs:sequence>
+            <xs:element name="producto" type="Tproducto"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Ttratamientos">
+        <xs:sequence>
+            <xs:element name="tratamiento" type="Ttratamiento"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Tpack_productos">
+        <xs:sequence>
+            <xs:element name="pack_producto" type="Tpack_producto"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- terceros complextype-->
+    <xs:complexType name="Tclinica_colaboradora">
+        <xs:attribute name="id" type="xs:ID" />
+        <xs:attribute name="nombre" type="xs:string"/>
+        <xs:attribute name="direccion" type="xs:string"/>
+        <xs:attribute name="telefono" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tpropietario">
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="nombre" type="xs:string"/>
+        <xs:attribute name="DNIoNIE" type="xs:string"/>
+        <xs:attribute name="telefono" type="xs:int"/>
+        <xs:attribute name="correo" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tpaciente">
+        <xs:attribute name="id_prop" type="xs:IDREF"/>
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="nombre" type="xs:string"/>
+        <xs:attribute name="especie" type="xs:string"/>
+        <xs:attribute name="raza" type="xs:string"/>
+        <xs:attribute name="fecha_nacimiento" type="xs:date"/>
+        <xs:attribute name="peso" type="xs:double"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tproducto">
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="nombre" type="xs:string"/>
+        <xs:attribute name="precio" type="xs:double"/>
+        <xs:attribute name="stock" type="xs:int"/>
+        <xs:attribute name="clinica_stock" type="xs:IDREF"/>
+        <xs:attribute name="categoria" type="Tcategoria"/>
+    </xs:complexType>
+
+    <xs:complexType name="Ttratamiento">
+        <xs:sequence>
+            <xs:element name="productos_utilizados" type="Tproducto_utilizado"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID"/>
+        <xs:attribute name="fecha_admin" type="xs:date"/>
+        <xs:attribute name="diagnostico" type="xs:string"/>
+        <xs:attribute name="observaciones" type="xs:string"/>
+        <xs:attribute name="fecha_prox" type="xs:date"/>
+    </xs:complexType>
+
+    <xs:complexType name="Tpack_producto">
+        <xs:sequence>
+            <xs:element name="id_prod" type="xs:IDREF" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="id_pack" type="xs:ID"/>
+            <xs:element name=""></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+
+
+    
+
+    
+</xs:schema>

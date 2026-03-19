@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="clinicas.xsd" type="application/xml-xsd"?>
+<clinicas.xml>
+    <clinica id="001">
+
+    </clinica>
+</clinicas.xml>
