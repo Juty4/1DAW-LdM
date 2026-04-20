@@ -30,7 +30,7 @@
     </unidades>
     <prueba id="P20220301" titulo="Final de marzo de 2022" fecha="2022-03-01">
         <parte id="P1" titulo="Recuperación 1"  tarea="https://ead.murciaeduca.es/mod/assign/view.php?id=699629" puntos_totales="10.0">
-            <ejercicio id="P1E1" puntos="3.0" unidad="UT1">
+            <ejercicio id="P1E11" puntos="3.0" unidad="UT1">
                 <enunciado>
                     Diseña un archivo XML que cumpla con las siguientes especificaciones: ...
                 </enunciado>                    
@@ -41,7 +41,7 @@
                         <item descripcion="Datos de ejemplo" peso="20" />
                 </items>
             </ejercicio>
-            <ejercicio id="P1E2" puntos="2.5" unidad="UT2">
+            <ejercicio id="P1E12" puntos="2.5" unidad="UT2">
                 <enunciado>
                     Diseña una página HTML como la que puede verse en la captura: ...
                 </enunciado>                    
@@ -56,7 +56,7 @@
                     <anexo src="captura_p1e2.png"/>
                 </anexos>
             </ejercicio>
-            <ejercicio id="P1E3" puntos="2.5" unidad="UT2">
+            <ejercicio id="P1E13" puntos="2.5" unidad="UT2">
                 <enunciado>
                     Desarrolla las reglas CSS para: ...
                 </enunciado>                    
@@ -68,7 +68,7 @@
                     <item descripcion="Regla 5"/>
                 </items>
             </ejercicio>
-            <ejercicio id="P1E4" puntos="2.0" unidad="UT3">
+            <ejercicio id="P1E14" puntos="2.0" unidad="UT3">
                 <enunciado>
                     Crea un archivo RSS que responda a estos requisitos: ...
                 </enunciado>                    

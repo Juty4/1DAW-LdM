@@ -10,14 +10,14 @@
         <xs:attribute name="id" type="xs:ID" use="required"/>
         <xs:attribute name="titulo" type="xs:string" use="required"/>
     </xs:complexType>
-    <xs:key name="pk_unidad">
-        <xs:selector xpath="modulo/unidades/unidad"/>
-        <xs:field xpath="@id"/>
-    </xs:key>
-    <xs:keyref name="fk_ejercicio_unidad" refer="pk_unidad">
-        <xs:selector xpath="prueba/unidad/ejercicio"/>
-        <xs:field xpath="@unidad"/>
-    </xs:keyref>    
+        <xs:key name="pk_unidad">
+            <xs:selector xpath="modulo/unidades/unidad"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:keyref name="fk_ejercicio_unidad" refer="pk_unidad">
+            <xs:selector xpath="prueba/unidad/ejercicio"/>
+            <xs:field xpath="@unidad"/>
+        </xs:keyref>    
     </xs:element>
     <!-- ComplexType -->
 
