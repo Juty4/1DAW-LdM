@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="biblioteca.xsd" type="application/xml-xsd"?>
+<biblioteca>
+    <catalogo>
+        <obras>
+            <obra titulo="Titulo 1" autor="autor 1" anio_pub="2001" categoria="categoria 1">
+                <ejemplares>
+                    <ejemplar num_ejemplar="1" id="OB1" copias="300" estado="descatalogado"/>
+                    
+                </ejemplares>
+            </obra>
+            
+        </obras>
+    </catalogo>
+    <prestamos>
+        <prestamo>
+
+        </prestamo>
+    </prestamos>
+    <usuarios>
+        <usuario id="0001">
+            <nombre>Pedro</nombre>
+            <email>correo1@correo.com</email>
+            <tipo>estudiante</tipo>
+        </usuario>
+    </usuarios>
+</biblioteca>
