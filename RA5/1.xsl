@@ -4,8 +4,15 @@
     
     <xsl:template match="ciclos">
         <html>
-            <h1>IES JOSE PLANES</h1>
-            <p><a href="https://www.iesjoseplanes.es">https://www.iesjoseplanes.es</a></p>
+            <h1><xsl:value-of select="//ies/@nombre"/></h1>
+            <p>Página web: 
+                <a>
+                    <xsl:attribute name="href">
+                        <xsl:value-of select="//ies/@web"/>
+                    </xsl:attribute>
+                    web
+                </a>
+            </p>
             <table border="1">
                 <tr>
                     <th>Nombre del ciclo</th>

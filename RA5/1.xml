@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="1.xsl" type="text/xsl"?>
-<ies nombre="IES Abastos" web="http://www.iesabastos.org/">
+<ies nombre="IES JOSE PLANES" web="https://www.iesjoseplanes.es">
   <ciclos>
     <ciclo id="ASIR">
       <nombre>Administración de Sistemas Informáticos en Red</nombre>
