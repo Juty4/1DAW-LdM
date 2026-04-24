@@ -2,21 +2,23 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" />
     <xsl:template match="museos">
-        <museos>
-            <xsl:apply-templates select="museo" />
-        </museos>
+        <lugares>
+            <xsl:apply-templates/>
+        </lugares>
     </xsl:template>
     <xsl:template match="museo">
-        <museo>
-            <xsl:attribute name="nombre">
-                <xsl:value-of select="nombre" />
-            </xsl:attribute>
-            <xsl:attribute name="ciudad">
-                <xsl:value-of select="ciudad" />
-            </xsl:attribute>
-            <xsl:attribute name="pais">
-                <xsl:value-of select="pais" />
-            </xsl:attribute>
-        </museo>
+        <lugar>
+           <ubicacion>
+            <xsl:attribute name="nombre">ciudad</xsl:attribute>
+           </ubicacion>
+           <ubicacion nombre="pais">
+               <xsl:value-of select="pais"/>
+           </ubicacion>
+           <nombre>
+               <xsl:value-of select="nombre"/>
+           </nombre> 
+            
+        </lugar>
+       
     </xsl:template>
 </xsl:stylesheet>
