@@ -2,18 +2,19 @@
 <xsl:stylesheet version="1.0 " xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output encoding="UTF-8" method="html" doctype-public=""/>    
    <xsl:template match="/">
-     <table>
-       <tr><th>Posición</th><th>Nombre</th><th>Salario</th><th>Departamento</th></tr>   
-       <xsl:apply-templates select="//employee" mode="tabla"/>
-    </table>
+     <xsl:apply-templates select="//employee" mode="listado">
+            <xsl:sort select="salary" data-type="number" order="ascending"/>
+     </xsl:apply-templates>
+   </xsl:template>
+   <xsl:template match="employee" mode="listado">
+    <xsl:value-of select="concat(first_name,' ',last_name)"/>
    </xsl:template>
 
-   <xsl:template match="employee" mode="tabla">
-    <tr>
-        <td><xsl:value-of select="position()"/></td>
-        <td><xsl:value-of select="concat(first_name,' ', last_name)"/></td>  
-        <td><xsl:value-of select="salary"/></td>
-        <td><xsl:value-of select="//department[department_id=current()/department_id]/department_name"/></td> 
-    </tr>
+   <xsl:template match="employee" mode="listado">
+    <xsl:value-of select="concat(first_name,' ',last_name)"/>
+    <xsl:text></xsl:text>
+    (<xsl:value-of select="salary"/>€)<br/><xsl:apply-imports />
    </xsl:template>
+
+   
 </xsl:stylesheet>
