@@ -4,14 +4,28 @@
     
     <xsl:template match="ciclos">
         <html>
-            <xsl:apply-templates match="ciclos" />
+            <h1>IES JOSE PLANES</h1>
+            <p><a href="https://www.iesjoseplanes.es">https://www.iesjoseplanes.es</a></p>
+            <table border="1">
+                <tr>
+                    <th>Nombre del ciclo</th>
+                    <th>Grado</th>
+                    <th>Año del titulo</th>
+                </tr>
+
+                xsl:<xsl:apply-templates/>
+            </table>
         </html>
         <xsl:value-of select="nombre"/>
             
     </xsl:template>
     <xsl:template match="ciclo">
-       <p>
-        <xsl:value-of select="nombre"/>
-    </p>
+       <html>
+        <tr>
+            <td><xsl:value-of select="nombre"/></td>
+            <td><xsl:value-of select="grado"/></td>
+            <td><xsl:value-of select="decretoTitulo/@año"/></td>
+        </tr>
+       </html>
     </xsl:template>
 </xsl:stylesheet>
