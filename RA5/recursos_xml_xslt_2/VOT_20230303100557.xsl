@@ -2,6 +2,23 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="html"/>
         <xsl:template match="/">
+        <html>
+            <head>
+                <title>Votación Congreso</title>
+            
+            </head>
+            <body>
+            <h1>
+            <xsl:value-of select="//Informacion/Titulo"/>
+            </h1>
+            <h2>
+                <xsl:value-of select="//"/>
+            </h2>
+            <h2>
+                <xsl:value-of select="concat('fecha: ',/Informacion/Fecha)"/>
+            </h2>
 
-        </xsl:template>
+        </body>
+        </html>
+    </xsl:template>
 </xsl:stylesheet>
