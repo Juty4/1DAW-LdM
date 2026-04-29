@@ -34,6 +34,32 @@
         </html>
     </xsl:template>
     <xsl:template match="Resultado">
-        
+        <xsl:apply-templates select="Totales"/>
+        <xsl:apply-templates select="Votaciones"/>
+    </xsl:template>
+    <xsl:template match="Totales">
+        <h3>Totales</h3>
+        <table border='1'>
+            <tr bgcolor="#9acd32">
+                <th>Presentes</th>
+                <th>A favor</th>
+                <th>En contra</th>
+                <th>Abstenciones</th>
+            </tr>
+            <tr>
+                <th><xsl:value-of select="Presentes"/></th>
+                <th><xsl:value-of select="AFavor"/></th>
+                <th><xsl:value-of select="EnContra"/></th>
+                <th><xsl:value-of select="Abstenciones"/></th>
+                
+            </tr>
+        </table>
+    </xsl:template>
+    <xsl:template match="Votaciones">
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+
     </xsl:template>
 </xsl:stylesheet>
