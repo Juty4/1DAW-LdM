@@ -1,0 +1,2116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resultado>
+    <Informacion>
+        <Sesion>149</Sesion>
+        <NumeroVotacion>20</NumeroVotacion>
+        <Fecha>3/2/2022</Fecha>
+        <Titulo>Convalidación o derogación de Reales Decretos-leyes.</Titulo>
+        <TextoExpediente>Real Decreto-ley 32/2021, de 28 de diciembre, de medidas urgentes para la reforma laboral, la garantía de la estabilidad en el empleo y la transformación del mercado de trabajo.</TextoExpediente>
+        <TituloSubGrupo/>
+        <TextoSubGrupo/>
+    </Informacion>
+    <Totales>
+        <Asentimiento>No</Asentimiento>
+        <Presentes>349</Presentes>
+        <AFavor>175</AFavor>
+        <EnContra>174</EnContra>
+        <Abstenciones>0</Abstenciones>
+        <NoVotan>0</NoVotan>
+    </Totales>
+    <Votaciones>
+        <Votacion>
+            <Asiento>2813</Asiento>
+            <Diputado>Zambrano García-Raez, Carlos José</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2716</Asiento>
+            <Diputado>Rosety Fernández de Castro, Agustín</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2816</Asiento>
+            <Diputado>Rodríguez Almeida, Andrés Alberto</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3312</Asiento>
+            <Diputado>Beltrán Villalba, Ana María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3209</Asiento>
+            <Diputado>Gamarra Ruiz-Clavijo, Concepción</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3701</Asiento>
+            <Diputado>Mestre Barea, Manuel</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3706</Asiento>
+            <Diputado>Santamaría Ruiz, Luis</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2815</Asiento>
+            <Diputado>Vega Arias, Rubén Darío</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2711</Asiento>
+            <Diputado>Trías Gil, Georgina</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3604</Asiento>
+            <Diputado>Sáez Alonso-Muñumer, Pablo</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3811</Asiento>
+            <Diputado>Gázquez Collado, Paloma</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3612</Asiento>
+            <Diputado>González Guinda, María del Carmen</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3702</Asiento>
+            <Diputado>Nevado del Campo, María Magdalena</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2817</Asiento>
+            <Diputado>Fernández-Lomana Gutiérrez, Rafael</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5</Asiento>
+            <Diputado>Gil Lázaro, Ignacio</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2715</Asiento>
+            <Diputado>Toscano de Balbín, Carla</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3704</Asiento>
+            <Diputado>Esteban Calonje, Cristina Alicia</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2614</Asiento>
+            <Diputado>Ruiz Solás, María de la Cabeza</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3707</Asiento>
+            <Diputado>Almodóbar Barceló, Agustín</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3210</Asiento>
+            <Diputado>Casado Blanco, Pablo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3507</Asiento>
+            <Diputado>Álvarez de Toledo Peralta-Ramos, Cayetana</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3204</Asiento>
+            <Diputado>Hispán Iglesias de Ussel, Pablo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3208</Asiento>
+            <Diputado>García Egea, Teodoro</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2615</Asiento>
+            <Diputado>López Maraver, Ángel</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3310</Asiento>
+            <Diputado>Montesinos Aguayo, Pablo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3716</Asiento>
+            <Diputado>España Reina, Carolina</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5801</Asiento>
+            <Diputado>Cortés Carballo, Mario</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3404</Asiento>
+            <Diputado>Figaredo Álvarez-Sala, José María</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2821</Asiento>
+            <Diputado>Sánchez García, José María</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3301</Asiento>
+            <Diputado>Ortega Smith-Molina, Francisco Javier</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3605</Asiento>
+            <Diputado>López Álvarez, María Teresa</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3705</Asiento>
+            <Diputado>Utrilla Cano, Julio</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3302</Asiento>
+            <Diputado>Fernández Ríos, Tomás</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3305</Asiento>
+            <Diputado>Moneo Díez, María Sandra</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3207</Asiento>
+            <Diputado>Mariscal Anaya, Guillermo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3304</Asiento>
+            <Diputado>De Meer Méndez, Rocío</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3515</Asiento>
+            <Diputado>Martínez Ferro, María Valentina</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3307</Asiento>
+            <Diputado>Montesinos de Miguel, Macarena</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3609</Asiento>
+            <Diputado>Elorriaga Pisarik, Gabriel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3606</Asiento>
+            <Diputado>Jara Moreno, Mercedes</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5802</Asiento>
+            <Diputado>Constenla Carbón, Juan Manuel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1817</Asiento>
+            <Diputado>Pagès i Massó, Josep</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2708</Asiento>
+            <Diputado>Segura Just, Juan Carlos</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1716</Asiento>
+            <Diputado>Calvo Gómez, Pilar</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2510</Asiento>
+            <Diputado>Álvarez i García, Gerard</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5605</Asiento>
+            <Diputado>Tarno Blanco, Ricardo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5704</Asiento>
+            <Diputado>Jerez Juan, Miguel Ángel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3703</Asiento>
+            <Diputado>Chamorro Delmo, Ricardo</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2609</Asiento>
+            <Diputado>García Adanero, Carlos</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2714</Asiento>
+            <Diputado>Asarta Cuevas, Alberto</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3206</Asiento>
+            <Diputado>Borrego Cortés, Isabel María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3804</Asiento>
+            <Diputado>Gestoso de Miguel, Luis</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3610</Asiento>
+            <Diputado>Pedreño Molina, Juan Luis</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3614</Asiento>
+            <Diputado>Mateu Istúriz, Jaime Miguel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3709</Asiento>
+            <Diputado>Ortiz Galván, José</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3801</Asiento>
+            <Diputado>Steegmann Olmedillas, Juan Luis</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3816</Asiento>
+            <Diputado>Merino Martínez, Javier</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3308</Asiento>
+            <Diputado>Hoyo Juliá, Belén</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2616</Asiento>
+            <Diputado>Borrás Pabón, Mireia</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3711</Asiento>
+            <Diputado>Marcos Domínguez, Pilar</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2612</Asiento>
+            <Diputado>Fernández Hernández, Pedro</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3608</Asiento>
+            <Diputado>Gutiérrez Díaz de Otazu, Fernando Adolfo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3802</Asiento>
+            <Diputado>Aizcorbe Torra, Juan José</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3803</Asiento>
+            <Diputado>Cañizares Pacheco, Inés María</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3505</Asiento>
+            <Diputado>Mariscal Zabala, Manuel</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>De Luna Tobarra, Llanos</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3817</Asiento>
+            <Diputado>Cruz-Guzmán García, María Soledad</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5601</Asiento>
+            <Diputado>Pérez Díaz, María Auxiliadora</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2810</Asiento>
+            <Diputado>Salvá Verd, Antonio</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2709</Asiento>
+            <Diputado>Jiménez Revuelta, Rodrigo</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3311</Asiento>
+            <Diputado>González Terol, Antonio</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3309</Asiento>
+            <Diputado>Olano Vela, Jaime Eduardo de</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2511</Asiento>
+            <Diputado>Capdevila i Esteve, Joan</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3405</Asiento>
+            <Diputado>Romero Vilches, María de los Reyes</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2818</Asiento>
+            <Diputado>Del Valle Rodríguez, Emilio Jesús</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3504</Asiento>
+            <Diputado>Méndez Monasterio, Lourdes</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3511</Asiento>
+            <Diputado>Bermúdez de Castro Fernández, José Antonio</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2513</Asiento>
+            <Diputado>Granollers Cunillera, Inés</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Salvador i Duch, Jordi</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2516</Asiento>
+            <Diputado>Rosique i Saltor, Marta</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2408</Asiento>
+            <Diputado>Eritja Ciuró, Francesc Xavier</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2412</Asiento>
+            <Diputado>Rufián Romero, Gabriel</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2411</Asiento>
+            <Diputado>Telechea i Lozano, Carolina</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2407</Asiento>
+            <Diputado>Carvalho Dantas, María</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2514</Asiento>
+            <Diputado>Pujol i Farré, Norma</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2410</Asiento>
+            <Diputado>Bassa Coll, Montserrat</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2515</Asiento>
+            <Diputado>Margall Sastre, Joan</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2712</Asiento>
+            <Diputado>Sánchez del Real, Víctor Manuel</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3713</Asiento>
+            <Diputado>Jiménez Linuesa, Beatriz</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3809</Asiento>
+            <Diputado>Gamazo Micó, Óscar</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2811</Asiento>
+            <Diputado>Calvo Liste, Pablo Juan</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3510</Asiento>
+            <Diputado>Suárez Lamata, Eloy</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2814</Asiento>
+            <Diputado>Ruiz Navarro, Eduardo Luis</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3413</Asiento>
+            <Diputado>Garcés Sanagustín, Mario</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3813</Asiento>
+            <Diputado>Navarro López, Pedro</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3410</Asiento>
+            <Diputado>Betoret Coll, Vicente</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2819</Asiento>
+            <Diputado>Contreras Peláez, Francisco José</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3616</Asiento>
+            <Diputado>Aragonés Mendiguchía, Carlos</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3306</Asiento>
+            <Diputado>González Vázquez, Marta</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3409</Asiento>
+            <Diputado>Herrero Bono, José Alberto</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5606</Asiento>
+            <Diputado>Paniagua Núñez, Miguel Ángel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Romero Hernández, Carmelo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3414</Asiento>
+            <Diputado>Rojas García, Carlos</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3412</Asiento>
+            <Diputado>Prohens Rigo, Margarita</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5604</Asiento>
+            <Diputado>Alonso Pérez, José Ángel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5603</Asiento>
+            <Diputado>Carazo Hermoso, Eduardo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2713</Asiento>
+            <Diputado>Robles López, Joaquín</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2812</Asiento>
+            <Diputado>De las Heras Fernández, Patricia</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3407</Asiento>
+            <Diputado>Sánchez Pérez, César</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3805</Asiento>
+            <Diputado>Alcaraz Martos, Francisco José</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3820</Asiento>
+            <Diputado>Riolobos Regadera, Carmen</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3715</Asiento>
+            <Diputado>Píriz Maya, Víctor Valentín</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3815</Asiento>
+            <Diputado>Velasco Morillo, Elvira</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3819</Asiento>
+            <Diputado>García Díez, Joaquín María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3509</Asiento>
+            <Diputado>Tirado Ochoa, Vicente</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5705</Asiento>
+            <Diputado>García-Pelayo Jurado, María José</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2808</Asiento>
+            <Diputado>Martínez Oblanca, Isidro Manuel</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1818</Asiento>
+            <Diputado>Illamola Dausà, Mariona</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1715</Asiento>
+            <Diputado>Nogueras i Camero, Míriam</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3810</Asiento>
+            <Diputado>Cabezón Casas, Tomás</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3516</Asiento>
+            <Diputado>Uriarte Bengoechea, Edurne</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3</Asiento>
+            <Diputado>Pastor Julián, Ana María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>9</Asiento>
+            <Diputado>Suárez Illana, Adolfo</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5602</Asiento>
+            <Diputado>Callejas Cano, Juan Antonio</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3512</Asiento>
+            <Diputado>Romero Sánchez, Rosa María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2701</Asiento>
+            <Diputado>Rego Candamil, Néstor</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3201</Asiento>
+            <Diputado>Abascal Conde, Santiago</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3506</Asiento>
+            <Diputado>Matarí Sáez, Juan José</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3613</Asiento>
+            <Diputado>García Rodríguez, Alicia</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3808</Asiento>
+            <Diputado>Postigo Quintana, Jesús</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2610</Asiento>
+            <Diputado>Sayas López, Sergio</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3708</Asiento>
+            <Diputado>Moraleja Gómez, Tristana María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2611</Asiento>
+            <Diputado>Cambronero Piqueras, Pablo</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2704</Asiento>
+            <Diputado>Iñarritu García, Jon</Diputado>
+            <Grupo>GEH Bildu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2605</Asiento>
+            <Diputado>Matute García de Jalón, Oskar</Diputado>
+            <Grupo>GEH Bildu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2705</Asiento>
+            <Diputado>Ruiz de Pinedo Undiano, Iñaki</Diputado>
+            <Grupo>GEH Bildu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2606</Asiento>
+            <Diputado>Pozueta Fernández, Isabel</Diputado>
+            <Grupo>GEH Bildu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2604</Asiento>
+            <Diputado>Aizpurua Arzallus, Mertxe</Diputado>
+            <Grupo>GEH Bildu</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3611</Asiento>
+            <Diputado>Castellón Rubio, Miguel Ángel</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3303</Asiento>
+            <Diputado>Rueda Perelló, Patricia</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2613</Asiento>
+            <Diputado>González Coello de Portugal, Víctor</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5702</Asiento>
+            <Diputado>Castillo López, Elena</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3408</Asiento>
+            <Diputado>Movellán Lombilla, Diego</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3607</Asiento>
+            <Diputado>Requena Ruiz, Juan Diego</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3517</Asiento>
+            <Diputado>Navarro Lacoba, Carmen</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3202</Asiento>
+            <Diputado>Espinosa de los Monteros de Simón, Iván</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3203</Asiento>
+            <Diputado>Olona Choclán, Macarena</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2809</Asiento>
+            <Diputado>Requejo Novoa, Pedro Jesús</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2608</Asiento>
+            <Diputado>Vehí Cantenys, Mireia</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2607</Asiento>
+            <Diputado>Botran Pahissa, Albert</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2512</Asiento>
+            <Diputado>Vallugera Balañà, Pilar</Diputado>
+            <Grupo>GR</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3205</Asiento>
+            <Diputado>Echániz Salgado, José Ignacio</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3812</Asiento>
+            <Diputado>Moro Almaraz, María Jesús</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3406</Asiento>
+            <Diputado>Marcos Ortega, Milagros</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2710</Asiento>
+            <Diputado>Ramírez del Río, José</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2207</Asiento>
+            <Diputado>Esteban Bravo, Aitor</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2206</Asiento>
+            <Diputado>Legarda Uriarte, Mikel</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2308</Asiento>
+            <Diputado>Gorospe Elezcano, Josune</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2309</Asiento>
+            <Diputado>Barandiaran Benito, Íñigo</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2205</Asiento>
+            <Diputado>Sagastizabal Unzetabarrenetxea, Idoia</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2310</Asiento>
+            <Diputado>Agirretxea Urresti, Joseba Andoni</Diputado>
+            <Grupo>GV (EAJ-PNV)</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3806</Asiento>
+            <Diputado>Álvarez Fanjul, Beatriz</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3714</Asiento>
+            <Diputado>Lorite Lorite, Andrés</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3807</Asiento>
+            <Diputado>Redondo Calvillo, María de la O</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3712</Asiento>
+            <Diputado>Clavell López, Óscar</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5701</Asiento>
+            <Diputado>Ledesma Martín, Sebastián Jesús</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3615</Asiento>
+            <Diputado>Zurita Expósito, Ana María</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3710</Asiento>
+            <Diputado>Angulo Romero, María Teresa</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Vázquez Blanco, Ana Belén</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3508</Asiento>
+            <Diputado>Delgado Arce, Celso Luis</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>5703</Asiento>
+            <Diputado>Bas Corugeira, Javier</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2820</Asiento>
+            <Diputado>Manso Olivar, Rubén Silvano</Diputado>
+            <Grupo>GVOX</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3513</Asiento>
+            <Diputado>Gago Bugarín, Diego</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Rodríguez Herrer, María Elvira</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>No</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1207</Asiento>
+            <Diputado>Meijón Couselo, Guillermo Antonio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1406</Asiento>
+            <Diputado>Sahuquillo García, Luis Carlos</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4805</Asiento>
+            <Diputado>Canales Duque, Mariana de Gracia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1501</Asiento>
+            <Diputado>Fagúndez Campo, Antidio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1405</Asiento>
+            <Diputado>Rodríguez Salas, José Antonio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1711</Asiento>
+            <Diputado>Ramón Utrabo, Elvira</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Garzón Espinosa, Alberto</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Echenique Robba, Pablo</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1714</Asiento>
+            <Diputado>Bel Accensi, Ferran</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4606</Asiento>
+            <Diputado>Sancho Íñiguez, Herminio Rufino</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1407</Asiento>
+            <Diputado>Peña Camarero, Esther</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1414</Asiento>
+            <Diputado>Zamarrón Moreno, Agustín</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1819</Asiento>
+            <Diputado>Cañadell Salvia, Concep</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1820</Asiento>
+            <Diputado>Miquel i Valentí, Sergi</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1816</Asiento>
+            <Diputado>Boadella Esteve, Genís</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1608</Asiento>
+            <Diputado>Pérez Abellás, Adolfo</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1504</Asiento>
+            <Diputado>Serrada Pariente, David</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1506</Asiento>
+            <Diputado>Cantera de Castro, Zaida</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1804</Asiento>
+            <Diputado>García López, Maribel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2203</Asiento>
+            <Diputado>Santiago Romero, Enrique Fernando</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1709</Asiento>
+            <Diputado>Marra Domínguez, María Ángeles</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4702</Asiento>
+            <Diputado>Cerqueiro González, Javier</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1705</Asiento>
+            <Diputado>Villagrasa Quero, Noemí</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1513</Asiento>
+            <Diputado>Renau Martínez, Germán</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1206</Asiento>
+            <Diputado>Ros Martínez, Susana</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1505</Asiento>
+            <Diputado>Aceves Galindo, José Luis</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1813</Asiento>
+            <Diputado>Lima Cid, Fuensanta</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3602</Asiento>
+            <Diputado>Martínez Granados, María Carmen</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1401</Asiento>
+            <Diputado>López Álvarez, Patxi</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1613</Asiento>
+            <Diputado>Andrés Barea, Josefa</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>8</Asiento>
+            <Diputado>Sánchez Serna, Javier</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2506</Asiento>
+            <Diputado>Honrubia Hurtado, Pedro Antonio</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1610</Asiento>
+            <Diputado>Berja Vega, Laura</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1305</Asiento>
+            <Diputado>Blanquer Alcaraz, Patricia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1609</Asiento>
+            <Diputado>Alonso Suárez, María Olga</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1514</Asiento>
+            <Diputado>Marí Klose, Pau</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1605</Asiento>
+            <Diputado>Vicente Viondi, Daniel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1512</Asiento>
+            <Diputado>Prieto Nieto, Ana</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4704</Asiento>
+            <Diputado>Sarrià Morell, Vicent Manuel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2703</Asiento>
+            <Diputado>Antón Cacho, Javier</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1303</Asiento>
+            <Diputado>Fernández Benéitez, Andrea</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1503</Asiento>
+            <Diputado>Alfonso Cendón, Javier</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1201</Asiento>
+            <Diputado>Gómez Hernández, Héctor</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1202</Asiento>
+            <Diputado>Crespín Rubio, Rafaela</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1301</Asiento>
+            <Diputado>Lastra Fernández, Adriana</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1411</Asiento>
+            <Diputado>Raya Rodríguez, María Tamara</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1814</Asiento>
+            <Diputado>Ferrer Tesoro, Sonia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3503</Asiento>
+            <Diputado>Díaz Gómez, Guillermo</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1415</Asiento>
+            <Diputado>Sumelzo Jordán, Susana</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1409</Asiento>
+            <Diputado>Guijarro Ceballos, María</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Seva Ruiz, Yolanda</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3104</Asiento>
+            <Diputado>Belarra Urteaga, Ione</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1209</Asiento>
+            <Diputado>Valerio Cordero, Magdalena</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1410</Asiento>
+            <Diputado>Soler Mur, Alejandro</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1509</Asiento>
+            <Diputado>González Ramos, Manuel Gabriel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1808</Asiento>
+            <Diputado>Narváez Bandera, María Dolores</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1304</Asiento>
+            <Diputado>Serrano Martínez, Juan Francisco</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2806</Asiento>
+            <Diputado>Oramas González-Moro, Ana María</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1302</Asiento>
+            <Diputado>Cerdán León, Santos</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1707</Asiento>
+            <Diputado>González Pérez, Ariagona</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2</Asiento>
+            <Diputado>Rodríguez Gómez de Celis, Alfonso</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3502</Asiento>
+            <Diputado>Giménez Giménez, Sara</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1103</Asiento>
+            <Diputado>Díaz Pérez, Yolanda</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4705</Asiento>
+            <Diputado>Padilla Ruiz, Esther</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2204</Asiento>
+            <Diputado>Gómez-Reino Varela, Antonio</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1604</Asiento>
+            <Diputado>Ramos Esteban, César Joaquín</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1508</Asiento>
+            <Diputado>Gutiérrez Prieto, Sergio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1205</Asiento>
+            <Diputado>Zaragoza Alonso, José</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1801</Asiento>
+            <Diputado>Ramírez Carner, Arnau</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1601</Asiento>
+            <Diputado>Aranda Vargas, Francisco</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1306</Asiento>
+            <Diputado>Mínguez García, Montse</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1602</Asiento>
+            <Diputado>Lamuà Estañol, Marc</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1702</Asiento>
+            <Diputado>Guinart Moreno, Lídia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1701</Asiento>
+            <Diputado>Perea i Conillas, María Mercè</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1802</Asiento>
+            <Diputado>Andrés Añón, Carmen</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2501</Asiento>
+            <Diputado>López de Uralde Garmendia, Juan Antonio</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2502</Asiento>
+            <Diputado>Uriarte Torrealday, Roberto</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1803</Asiento>
+            <Diputado>Guaita Esteruelas, Sandra</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1517</Asiento>
+            <Diputado>Ruiz i Carbonell, Joan</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2304</Asiento>
+            <Diputado>Garrido Gutiérrez, Pilar</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3402</Asiento>
+            <Diputado>Bal Francés, Edmundo</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1</Asiento>
+            <Diputado>Batet Lamaña, Meritxell</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1809</Asiento>
+            <Diputado>Ramos Rodríguez, José Luis</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1403</Asiento>
+            <Diputado>Diouf Dioh, Luc Andre</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4706</Asiento>
+            <Diputado>González Caballero, Miguel Ángel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1412</Asiento>
+            <Diputado>Pons Sampietro, Pere Joan</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4807</Asiento>
+            <Diputado>López Zamora, Cristina</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1107</Asiento>
+            <Diputado>Montero Cuadrado, María Jesús</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1703</Asiento>
+            <Diputado>García Gómez, Valentín</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Sánchez Escobar, Mariano</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1204</Asiento>
+            <Diputado>Fernández Casero, Ana Belén</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1708</Asiento>
+            <Diputado>García Morís, Roberto</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Errejón Galván, Íñigo</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1615</Asiento>
+            <Diputado>Sabanés Nadal, Inés</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2504</Asiento>
+            <Diputado>Velarde Gómez, Martina</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1310</Asiento>
+            <Diputado>Botella Gómez, Ana María</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1614</Asiento>
+            <Diputado>Baldoví Roda, Joan</Diputado>
+            <Grupo>GPlu</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1307</Asiento>
+            <Diputado>Martínez Seijo, María Luz</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1515</Asiento>
+            <Diputado>Faneca López, María Luisa</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3403</Asiento>
+            <Diputado>Espejo-Saavedra Conesa, José María</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1311</Asiento>
+            <Diputado>Calvo Poyato, Carmen</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1309</Asiento>
+            <Diputado>Sicilia Alférez, Felipe Jesús</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2404</Asiento>
+            <Diputado>López Domínguez, Laura</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2306</Asiento>
+            <Diputado>Mena Arca, Joan</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2305</Asiento>
+            <Diputado>García Puig, María del Mar</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Vidal Sáez, Aina</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1312</Asiento>
+            <Diputado>Ábalos Meco, José Luis</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1208</Asiento>
+            <Diputado>Carcedo Roces, María Luisa</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2202</Asiento>
+            <Diputado>Fernández Castañón, Sofía</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1815</Asiento>
+            <Diputado>Rodríguez Gómez, María del Pilar</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1101</Asiento>
+            <Diputado>Sánchez Pérez-Castejón, Pedro</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1607</Asiento>
+            <Diputado>Soto Burillo, Juan Luis</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1408</Asiento>
+            <Diputado>Sánchez Jódar, Marisol</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1308</Asiento>
+            <Diputado>Carrillo de los Reyes, Beatriz Micaela</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1612</Asiento>
+            <Diputado>Bravo Barco, Eva</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2403</Asiento>
+            <Diputado>Maestro Moliner, Roser</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Casero Ávila, Alberto</Diputado>
+            <Grupo>GP</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1210</Asiento>
+            <Diputado>Simancas Simancas, Rafael</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>7</Asiento>
+            <Diputado>Hernanz Costa, Sofía</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>6</Asiento>
+            <Diputado>Pisarello Prados, Gerardo</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2201</Asiento>
+            <Diputado>Asens Llodrà, Jaume</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4</Asiento>
+            <Diputado>Elizo Serrano, María Gloria</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4801</Asiento>
+            <Diputado>Cuatrecasas Asua, Juan</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4603</Asiento>
+            <Diputado>García Chavarría, María Montserrat</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2706</Asiento>
+            <Diputado>Guitarte Gimeno, Tomás</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1706</Asiento>
+            <Diputado>Sancho Guardia, Alfredo</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1606</Asiento>
+            <Diputado>Nasarre Oliva, Begoña</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1611</Asiento>
+            <Diputado>Bueno Campanario, Eva Patricia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1502</Asiento>
+            <Diputado>Caballero Gutiérrez, Helena</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2503</Asiento>
+            <Diputado>Franco Carmona, Isabel</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1511</Asiento>
+            <Diputado>Elorza González, Odón</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3105</Asiento>
+            <Diputado>Montero Gil, Irene María</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3401</Asiento>
+            <Diputado>Arrimadas García, Inés</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4806</Asiento>
+            <Diputado>Vilches Ruiz, María Luisa</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3601</Asiento>
+            <Diputado>Muñoz Vidal, María</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2507</Asiento>
+            <Diputado>Jover Díaz, Antonia</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2508</Asiento>
+            <Diputado>Muñoz Dalda, Lucía</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2301</Asiento>
+            <Diputado>Mayoral Perales, Rafael</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1710</Asiento>
+            <Diputado>Durán Peralta, José Carlos</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1516</Asiento>
+            <Diputado>López Cano, Ignacio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2401</Asiento>
+            <Diputado>Guijarro García, Txema</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1402</Asiento>
+            <Diputado>Casares Hontañón, Pedro</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2601</Asiento>
+            <Diputado>Saavedra Muñoz, Marisa</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2707</Asiento>
+            <Diputado>Mazón Ramos, José María</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2405</Asiento>
+            <Diputado>Cortés Gómez, Ismael</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2807</Asiento>
+            <Diputado>Quevedo Iturbe, Pedro</Diputado>
+            <Grupo>GMx</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1203</Asiento>
+            <Diputado>Leal Fernández, Isaura</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1812</Asiento>
+            <Diputado>Losada Fernández, José</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1404</Asiento>
+            <Diputado>Anguita Pérez, Omar</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2602</Asiento>
+            <Diputado>Medel Pérez, Rosa María</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2402</Asiento>
+            <Diputado>Pita Cárdenes, María del Carmen</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1603</Asiento>
+            <Diputado>Guerra López, Sonia</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1712</Asiento>
+            <Diputado>Gutiérrez Salinas, Indalecio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1806</Asiento>
+            <Diputado>Fuentes Curbelo, Juan Bernardo</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2702</Asiento>
+            <Diputado>Del Valle de Iscar, Julio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1805</Asiento>
+            <Diputado>José Vélez, Rafael</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4802</Asiento>
+            <Diputado>Pedraja Sáinz, Raquel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1413</Asiento>
+            <Diputado>López Somoza, Gema</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1807</Asiento>
+            <Diputado>Araujo Morales, Gemma</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1510</Asiento>
+            <Diputado>Baños Ruiz, Carmen</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1507</Asiento>
+            <Diputado>Navalpotro Gómez, Julio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4605</Asiento>
+            <Diputado>Senderos Oraá, Daniel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1810</Asiento>
+            <Diputado>Ortega Domínguez, José Ramón</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4604</Asiento>
+            <Diputado>Arribas Maroto, Manuel</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1811</Asiento>
+            <Diputado>Oria López, María Inmaculada</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4804</Asiento>
+            <Diputado>Azorín Salar, Lázaro</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>1713</Asiento>
+            <Diputado>Hurtado Zurera, Antonio</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Taibo Monelos, Diego</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4602</Asiento>
+            <Diputado>Tizón Vázquez, Uxía</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3501</Asiento>
+            <Diputado>Gutiérrez Vivas, Miguel Ángel</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>-1</Asiento>
+            <Diputado>Pérez Merino, María Mercedes</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>3603</Asiento>
+            <Diputado>López-Bas Valero, Juan Ignacio</Diputado>
+            <Grupo>GCs</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2505</Asiento>
+            <Diputado>Bustamante Martín, Miguel Ángel</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>4701</Asiento>
+            <Diputado>González Laso, Natividad</Diputado>
+            <Grupo>GS</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+        <Votacion>
+            <Asiento>2303</Asiento>
+            <Diputado>Delgado Ramos, Juan Antonio</Diputado>
+            <Grupo>GCUP-EC-GC</Grupo>
+            <Voto>Sí</Voto>
+        </Votacion>
+    </Votaciones>
+</Resultado>
