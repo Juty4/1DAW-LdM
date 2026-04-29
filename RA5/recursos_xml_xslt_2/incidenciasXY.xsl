@@ -28,6 +28,9 @@
                     .verde{
                         color:green;
                     }
+                    .otro{
+                    font-weight:bold;
+                    }
 
                 </style>
             </head>
@@ -61,10 +64,11 @@
                         <xsl:when test="nivel='VERDE'">
                           <span class="verde"> <xsl:value-of select="nivel"/></span>
                         </xsl:when>
-
+                        <xsl:otherwhise>
+                          <span class="otro"> <xsl:value-of select="nivel"/></span>
+                        </xsl:otherwhise>
                     </xsl:choose>
                 </td>
-                
             </tr>
         </xsl:template>
 </xsl:stylesheet>
